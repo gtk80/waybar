@@ -1,0 +1,42 @@
+* {
+  font-size: 12px;
+  font-family: "Cascadia Code PL";
+  font-weight: bold;
+}
+
+window#waybar {
+  background: rgba(0, 0, 0, 0.0);
+  color: #ffffff;
+}
+
+#workspaces button {
+  padding: 0 3px;
+  color: #fdf6e3;
+}
+#workspaces button.focused {
+  color: #268bd2;
+}
+#workspaces button:hover {
+  box-shadow: inherit;
+  text-shadow: inherit;
+}
+#workspaces button:hover {
+  background: #000000;
+  padding: 0 3px;
+}
+
+#workspaces,
+#custom-kernel,
+#custom-ipaddr,
+#network,
+#pulseaudio,
+#memory,
+#cpu,
+#disk,
+#clock {
+  color: #ffffff;
+  background: linear-gradient(180deg, rgba(38,139,210,1) 0%, rgba(0,0,0,1) 68%, rgba(38,139,210,1) 100%);
+  padding: 0 12px 0 12px;
+  margin: 0 2px 0 2px;
+  border-radius: 15px;
+}
