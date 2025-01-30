@@ -38,9 +38,15 @@
 		"tooltip": false
 	},
 	"network": {
-		"interface": "eno2",
+		"interface": "wlo1",
 		"interval": 1,
-		"format": "📡 {bandwidthTotalBytes}"
+		"format": "📡 {bandwidthTotalBytes}",
+		"format-disconnected": "",
+		"tooltip-format": "{ifname}",
+		"tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+		"tooltip-format-ethernet": "{ifname} ",
+		"tooltip-format-disconnected": "Disconnected",
+		"max-length": 50
 	},
 	"pulseaudio": {
 		"format": "{icon} {volume:2}%",
