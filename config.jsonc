@@ -17,7 +17,7 @@
 		"cpu",
 		"memory",
 		"disk",
-		"tray"
+                "custom/logout"
 	],
 
 	"sway/workspaces": {
@@ -38,7 +38,7 @@
 		"tooltip": false
 	},
 	"network": {
-		"interface": "wlo1",
+		"interface": "eno2",
 		"interval": 1,
 		"format": "📡 {bandwidthTotalBytes}",
 		"format-disconnected": "❌",
@@ -76,9 +76,11 @@
 		"format": "💾 SSD: {percentage_used:2}%",
 		"path": "/"
 	},
-	"tray": {
-		"icon-size": 20
-	},
+        "custom/logout": {
+                "format": "🔘",
+                "tooltip": false,
+                "on-click": "wlogout"
+        },
 	"custom/kernel": {
 		"format": "⚙️ Kernel: {}",
 		"interval": 3600,
