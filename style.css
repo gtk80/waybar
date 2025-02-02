@@ -1,5 +1,5 @@
 * {
-  font-size: 12px;
+  font-size: 14px;
   font-family: "Cascadia Code PL";
   font-weight: bold;
 }
@@ -33,6 +33,7 @@ window#waybar {
 #memory,
 #cpu,
 #disk,
+#custom-logout,
 #clock {
   color: #ffffff;
   background: linear-gradient(180deg, rgba(38,139,210,1) 0%, rgba(0,0,0,1) 68%, rgba(38,139,210,1) 100%);
