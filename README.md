@@ -5,7 +5,7 @@ Requirements:
 * gnome-characters
 
 Purple theme
-![Waybar Purple]((https://github.com/gtk80/waybar/blob/main/waybar-purple.png)
+![Waybar Purple](https://github.com/gtk80/waybar/blob/main/waybar-purple.png)
 
 Blue theme
 ![Waybar Blue](https://github.com/gtk80/waybar/blob/main/waybar.png)
