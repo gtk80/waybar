@@ -38,7 +38,7 @@
 		"tooltip": false
 	},
 	"network": {
-		"interface": "eno2",
+		"interface": "eno1",
 		"interval": 1,
 		"format": "📡 {bandwidthTotalBytes}",
 		"format-disconnected": "❌",
@@ -90,7 +90,7 @@
 	"custom/ipaddr": {
 		"format": "💀 IP: {}",
 		"interval": 3600,
-		"exec": "hostname -I",
+		"exec": "hostname -i",
 		"tooltip": false
 	}
 }

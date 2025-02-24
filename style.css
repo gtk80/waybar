@@ -39,7 +39,11 @@ window#waybar {
   /* Blue theme */
   /*background: linear-gradient(180deg, rgba(38,139,210,1) 0%, rgba(0,0,0,1) 68%, rgba(38,139,210,1) 100%);*/
   /* Grey theme */
-  background: linear-gradient(180deg, rgb(59, 59, 59) 0%, rgb(0, 0, 0) 68%, rgba(59, 59, 59,1) 100%);
+  /*background: linear-gradient(180deg, rgb(59, 59, 59) 0%, rgb(0, 0, 0) 68%, rgba(59, 59, 59,1) 100%);*/
+  /* Purple theme */
+  background: linear-gradient(90deg, rgba(56,0,74,1) 0%, rgba(94,0,124,1) 50%, rgba(56,0,74,1) 100%);
+  border: 1px solid #5e007c;
+  /* ------------ */
   padding: 0 12px 0 12px;
   margin: 0 2px 0 2px;
   border-radius: 15px;
